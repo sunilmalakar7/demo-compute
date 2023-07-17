@@ -1,0 +1,39 @@
+.zone {
+  /*padding:30px 50px;*/
+  cursor:pointer;
+  color:#FFF;
+  font-size:2em;
+  border-radius:4px;
+  border:1px solid #bbb;
+  transition: all 0.3s linear;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar-fixed-top {
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+/*     z-index: 1; */
+background: white;
+}
+
+.navbar-fixed-top.cbp-af-header-shrink {
+padding: 10px 0;
+}
+
+#scrollDemo {
+  height: 100px;
+  /* width: 200px; */
+  overflow: auto;
+  background-color: #f0db4f
+}
+
+/* #scrollDemo p {
+  height: 300px;
+  width: 300px;
+} */
