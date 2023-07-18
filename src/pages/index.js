@@ -1,10 +1,5 @@
-import BasicImage from '@/components/BasicImage'
-import Responsive from '@/components/Responsive'
 import React, { useEffect, useMemo, useState , useCallback} from 'react'
-// import UsersPage from './client/users'
-// import ServerUsersPage from './server/users'
-// import StaticUserPage from './static/users'
-// import StaticUser from './static/users/[id]'
+
 export default function Home() {
 
   useEffect(() => {
